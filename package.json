@@ -1,0 +1,35 @@
+{
+  "name": "venue_booking_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.server.js",
+  "scripts": {
+    "start": "nodemon index.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay782/venue_booking_site.git"
+  },
+  "author": "Akshay Kanade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay782/venue_booking_site/issues"
+  },
+  "homepage": "https://github.com/akshay782/venue_booking_site#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.0",
+    "stripe": "^8.176.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

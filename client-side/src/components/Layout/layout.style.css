@@ -1,0 +1,15 @@
+.avatar-border {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 992px) {
+  .test {
+    align-items: center;
+    left: 0;
+  }
+}
